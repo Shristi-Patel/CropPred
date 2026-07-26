@@ -1,0 +1,144 @@
+{
+  "Blast": {
+    "description": "Rice Blast is one of the most destructive fungal diseases of rice caused by Magnaporthe oryzae. It affects leaves, stems, nodes, and panicles, reducing grain yield significantly under favorable environmental conditions.",
+
+    "symptoms": [
+      "Diamond-shaped lesions with gray or white centers.",
+      "Brown or reddish-brown lesion margins.",
+      "Lesions enlarge and merge together.",
+      "Drying of infected leaves.",
+      "Neck blast causes panicle breakage and empty grains."
+    ],
+
+    "causes": [
+      "Magnaporthe oryzae fungal infection.",
+      "High humidity above 90%.",
+      "Frequent rainfall or prolonged leaf wetness.",
+      "Moderate temperatures (24–28°C).",
+      "Excess nitrogen fertilizer application.",
+      "Poor field ventilation."
+    ],
+
+    "treatment": [
+      "Apply Tricyclazole 75 WP as recommended.",
+      "Use Isoprothiolane-based fungicides.",
+      "Spray Azoxystrobin if symptoms are severe.",
+      "Follow local agricultural extension recommendations."
+    ],
+
+    "prevention": [
+      "Use certified disease-resistant rice varieties.",
+      "Avoid excessive nitrogen fertilization.",
+      "Maintain proper field drainage.",
+      "Monitor crops regularly during humid weather.",
+      "Remove infected crop residues after harvest."
+    ]
+  },
+
+  "Brownspot": {
+    "description": "Brown Spot is a fungal disease caused by Bipolaris oryzae. It commonly occurs under nutrient-deficient conditions and may significantly reduce grain quality and yield.",
+
+    "symptoms": [
+      "Small circular or oval brown lesions.",
+      "Dark brown borders around spots.",
+      "Yellow halo surrounding lesions.",
+      "Lesions increase in size during severe infection.",
+      "Premature drying of leaves."
+    ],
+
+    "causes": [
+      "Bipolaris oryzae fungal infection.",
+      "Nutrient deficiency, especially potassium.",
+      "Poor soil fertility.",
+      "Water stress.",
+      "Warm and humid weather.",
+      "Continuous rice cultivation."
+    ],
+
+    "treatment": [
+      "Spray Mancozeb fungicide.",
+      "Apply Propiconazole if disease spreads rapidly.",
+      "Improve soil fertility using balanced fertilizers.",
+      "Maintain recommended irrigation schedule."
+    ],
+
+    "prevention": [
+      "Use certified healthy seeds.",
+      "Apply balanced NPK fertilizers.",
+      "Avoid drought stress.",
+      "Maintain proper field sanitation.",
+      "Rotate crops whenever possible."
+    ]
+  },
+
+  "Bacterialblight": {
+    "description": "Bacterial Blight is a serious bacterial disease caused by Xanthomonas oryzae pv. oryzae. It spreads rapidly under rainy and windy conditions and can severely reduce rice productivity.",
+
+    "symptoms": [
+      "Yellowing from leaf tips downward.",
+      "Water-soaked streaks along leaf margins.",
+      "Leaves gradually turn straw-colored.",
+      "Wilting of young seedlings (Kresek symptom).",
+      "Drying of entire leaves under severe infection."
+    ],
+
+    "causes": [
+      "Xanthomonas oryzae pv. oryzae bacterial infection.",
+      "Heavy rainfall and strong winds.",
+      "Mechanical injury to leaves.",
+      "High nitrogen fertilization.",
+      "Contaminated irrigation water.",
+      "Infected crop residues."
+    ],
+
+    "treatment": [
+      "Apply copper-based bactericides where recommended.",
+      "Avoid excessive nitrogen fertilizer.",
+      "Remove severely infected plants.",
+      "Consult local agricultural guidelines for bacterial disease management."
+    ],
+
+    "prevention": [
+      "Grow resistant rice varieties.",
+      "Use certified disease-free seeds.",
+      "Maintain field hygiene.",
+      "Avoid overcrowding plants.",
+      "Ensure proper drainage."
+    ]
+  },
+
+  "Tungro": {
+    "description": "Rice Tungro Disease is a viral disease caused by Rice Tungro Bacilliform Virus (RTBV) and Rice Tungro Spherical Virus (RTSV). It is transmitted by green leafhoppers and is one of the most damaging viral diseases in rice.",
+
+    "symptoms": [
+      "Yellow-orange discoloration of leaves.",
+      "Stunted plant growth.",
+      "Reduced tillering.",
+      "Poor panicle formation.",
+      "Significant reduction in grain yield."
+    ],
+
+    "causes": [
+      "Rice Tungro Bacilliform Virus (RTBV).",
+      "Rice Tungro Spherical Virus (RTSV).",
+      "Transmission by green leafhopper (Nephotettix spp.).",
+      "Presence of infected plants nearby.",
+      "Continuous rice cropping."
+    ],
+
+    "treatment": [
+      "No direct cure exists after viral infection.",
+      "Control green leafhopper populations.",
+      "Remove infected plants immediately.",
+      "Use integrated pest management practices."
+    ],
+
+    "prevention": [
+      "Plant resistant rice varieties.",
+      "Control green leafhopper vectors.",
+      "Synchronize planting dates within the region.",
+      "Remove volunteer rice plants and weeds.",
+      "Regularly monitor fields for insect vectors."
+    ]
+  }
+}

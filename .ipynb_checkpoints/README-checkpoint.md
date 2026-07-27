@@ -265,17 +265,19 @@ streamlit run app.py
 - 🤖 Multi-Disease Detection
 - 🌿 Pest Identification
 - 📊 Disease Severity Estimation
-- 🔥 Integrated Grad-CAM in Streamlit
 
 ---
 
 # 👨‍💻 Author
 
 **Shlok Nandwana**
+**Rishita Bohra**
+**Shristi Patel**
+**Saumya Arora**
 
 B.Tech Information Technology
 
-Artificial Intelligence | Machine Learning | Deep Learning | Computer Vision
+Artificial Intelligence | Machine Learning | Deep Learning | Computer Vision | Flutter
 
 GitHub: https://github.com/shlok0603
 

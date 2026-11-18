@@ -80,3 +80,13 @@ DEVICE = torch.device(
 MEAN = (0.485, 0.456, 0.406)
 
 STD = (0.229, 0.224, 0.225)
+
+# ==========================================
+# Image Input / Upload Configuration
+# ==========================================
+
+ALLOWED_IMAGE_TYPES = ["jpg", "jpeg", "png"]
+
+MAX_UPLOAD_SIZE_MB = 10
+
+MIN_IMAGE_DIMENSION = 64

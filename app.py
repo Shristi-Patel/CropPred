@@ -11,6 +11,9 @@ from src.model import build_model
 from src.utils import load_checkpoint
 from src.gradcam import GradCAM, create_overlay
 
+# ==========Shristi
+from src.image_input import get_image_input, validate_and_load_image
+# ==========
 
 # ============================================================
 # Page Configuration
@@ -130,28 +133,24 @@ st.sidebar.info(
 
 
 # ============================================================
-# Upload Image
+# Upload Image - Changed - Shristi
 # ============================================================
 
-uploaded_file = st.file_uploader(
+raw_file = get_image_input(label="Upload Rice Leaf Image")
 
-    "Upload Rice Leaf Image",
+image = None
 
-    type=[
-        "jpg",
-        "jpeg",
-        "png"
-    ]
+if raw_file is not None:
 
-)
+    image, error = validate_and_load_image(raw_file)
 
+    if error:
+        st.error(f"❌ {error}")
 # ============================================================
 # Prediction
 # ============================================================
 
-if uploaded_file is not None:
-
-    image = Image.open(uploaded_file).convert("RGB")
+if image is not None:
 
     input_tensor = transform(image).unsqueeze(0).to(DEVICE)
 
